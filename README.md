@@ -179,3 +179,19 @@ https://github.com/gurnitha/2022-django-suorganizer
 
             Created for Django Unleashed
 
+
+### 5 Creating Webpages with Controllers in Django: Views and URL Configurations
+
+
+#### 5.1 Building Tag Detail Webpage and Generating 404 Errors for Invalid Queries
+
+        modified:   README.md
+        modified:   organizer/urls.py
+        modified:   organizer/views.py
+
+        NOTE:
+
+        1. To view tags, visit: http://127.0.0.1:8000/tags/
+        2. To view tag of django, visit: http://127.0.0.1:8000/tag/django/        
+        3. To view error, visit: http://127.0.0.1:8000/tag/djangoxx/
+
