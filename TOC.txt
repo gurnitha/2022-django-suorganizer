@@ -1,0 +1,338 @@
+Contents
+Preface xiii
+Acknowledgments xvii
+About the Author xix
+
+I Django’s Core Features 1
+--------------------------
+
+1 Starting a New Django Project: Building a Startup
+Categorizer with Blog 3
+
+1.1 Introduction 3
+1.2 Website Basics 4
+1.3 Understanding Modern Websites 5
+1.4 Building Modern Websites: The Problems That
+Frameworks Solve and Their Caveats 6
+1.5 Django: Python Web Framework 8
+1.6 Defining the Project in Part I 11
+1.7 Creating a New Django Project and Django Apps 13
+1.8 Putting It All Together 21
+
+2 Hello World: Building a Basic Webpage in
+Django 23
+
+2.1 Introduction 23
+2.2 Creating and Integrating a New App 24
+2.3 Building Hello World 25
+2.4 Displaying Hello World 26
+2.5 Controller Limitations: The Advantages of Models
+and Views 27
+2.6 Removing Our Helloworld App from Our Project 27
+2.7 Putting It All Together 29
+
+3 Programming Django Models and Creating a SQLite
+Database 31
+
+3.1 Introduction 31
+3.2 Why Use a Database? 32
+3.3 Organizing Our Data 32
+3.4 Specifying and Organizing Data in Django
+Using Models 36
+3.5 Using Django to Automatically Create a SQLite
+Database with manage.py 49
+3.6 Manipulating Data in the Database: Managers
+and QuerySets 56
+3.7 String Case Ordering 68
+3.8 Putting It All Together 71
+4 Rapidly Producing Flexible HTML with Django
+Templates 73
+
+4.1 Introduction 73
+
+4.2 Revisiting Hello World: The Advantages of
+Templates 74
+4.3 Understanding Django Templates and
+Their Goals 77
+4.4 Choosing a Format, an Engine, and a Location
+for Templates 77
+4.5 Building a First Template: A Single Tag
+Object 78
+4.6 Building the Rest of Our App Templates 90
+4.7 Using Template Inheritance for Design
+Consistency 102
+4.8 Using Templates in Python with the Template,
+Context, and loader Classes 112
+4.9 Putting It All Together 118
+5 Creating Webpages with Controllers
+in Django: Views and URL Configurations 121
+
+5.1 Introduction 121
+
+5.2 The Purpose of Views and URL
+Configurations 122
+5.3 Step-by-Step Examination of Django’s Use of
+Views and URL Configurations 126
+5.4 Building Tag Detail Webpage 128
+5.5 Generating 404 Errors for Invalid
+Queries 132
+5.6 Shortening the Development Process with
+Django View Shortcuts 135
+5.7 URL Configuration Internals: Adhering to App
+Encapsulation 143
+5.8 Implementing the Views and URL Configurations
+to the Rest of the Site 148
+5.9 Class-Based Views 155
+5.10 Redirecting the Homepage 163
+5.11 Putting It All Together 166
+6 Integrating Models, Templates, Views, and URL
+Configurations to Create Links between
+Webpages 169
+
+6.1 Introduction 169
+
+6.2 Generating URLs in Python and Django
+Templates 170
+6.3 Using the url Template Tag to Build a Navigation
+Menu 175
+6.4 Linking List Pages to Detail Pages 177
+6.5 Creating Links on the Object Detail Pages 184
+6.6 Revisiting Homepage Redirection 186
+6.7 Putting It All Together 187
+
+7 Allowing User Input with Forms 189
+
+7.1 Introduction 189
+7.2 Django Forms as State Machines 190
+7.3 Creating TagForm, a Form for Tag Objects 190
+7.4 Building the Forms for Startup, Newslink, and
+Post Models 206
+7.5 Putting It All Together 210
+
+8 Displaying Forms in Templates 211
+
+8.1 Introduction 211
+8.2 Creating a New Template to Create
+Tag Objects 211
+8.3 Creating a New Template to Update
+Tag Objects 224
+8.4 Creating a New Template to Delete
+Tag Objects 226
+8.5 Creating Templates for StartupForm,
+NewsLinkForm, and PostForm 227
+8.6 Reconsidering Template Inheritance 229
+8.7 Putting It All Together 231
+9 Controlling Forms in Views 233
+
+9.1 Introduction 233
+
+9.2 Webpages for Creating Objects 233
+9.3 Webpages for Updating Objects 256
+9.4 Webpages for Deleting Objects 268
+9.5 Putting It All Together 276
+
+10 Revisiting Migrations 279
+
+10.1 Introduction 279
+10.2 Last Week’s Episode (Reviewing Chapter 3) 279
+10.3 Data Migrations 280
+10.4 Schema Migrations 288
+10.5 Putting It All Together 296
+
+11 Bending the Rules: The Contact Us
+Webpage 299
+
+11.1 Introduction 299
+11.2 Creating a contact App 300
+11.3 Creating the Contact Webpage 301
+11.4 Splitting Organizer urls.py 308
+11.5 Putting It All Together 310
+
+12 The Big Picture 313
+
+12.1 Introduction 313
+12.2 Django’s Core 313
+12.3 Webpages with Views and URL
+Configurations 316
+12.4 Generating Webpages Thanks to Models
+and Templates 317
+12.5 Interacting with Data via Forms 318
+12.6 Intervening in Control Flow 319
+12.7 Moving Forward 319
+
+II Djangos Contributed Libraries 321
+------------------------------------
+
+13 Django’s Contributed Library 323
+
+13.1 Introduction 323
+13.2 Django’s Source Code (and Versioning) 323
+13.3 Django’s contrib Code 325
+13.4 Content (Not) Covered 327
+13.5 Translation 328
+13.6 Putting It All Together 329
+
+14 Pagination: A Tool for Navigation 331
+
+14.1 Introduction 331
+14.2 A Word about URLs: Query versus Path 332
+14.3 Discovering Django Pagination in the Shell 333
+14.4 Paginating the Startup List Webpage 337
+14.5 Pagination of Tag List Webpage Using the
+URL Path 345
+
+14.6 Putting It All Together 351
+
+15 Creating Webpages with Django Flatpages 353
+15.1 Introduction 353
+15.2 Enabling Flatpages 353
+15.3 Anatomy of the App 355
+15.4 Building an About Webpage 355
+15.5 Linking to FlatPage Objects 363
+15.6 Security Implications of FlatPages 363
+15.7 Migrations for Sites and Flatpages 365
+15.8 Putting It All Together 371
+16 Serving Static Content with Django 373
+
+16.1 Introduction 373
+
+16.2 Adding Static Content for Apps 374
+16.3 Adding Static Content for the Project 376
+16.4 Integrating Real CSS Content 377
+16.5 Putting It All Together 381
+
+17 Understanding Generic Class-Based Views 383
+
+17.1 Introduction 383
+17.2 Building Generic Object Detail Pages 384
+17.3 Why Use Classes for Generic Views? 393
+17.4 Building Generic Object Create Pages 394
+17.5 Replacing CBVs with GCBVs 395
+17.6 Forgoing GCBVs 400
+17.7 Adding Behavior with GCBV 401
+17.8 Putting It All Together 416
+18 Advanced Generic Class-Based View Usage 417
+
+18.1 Introduction 417
+
+18.2 Rapid Review of GCBV 418
+18.3 Globally Setting Template Suffix for Update
+Views 419
+18.4 Generating Pagination Links 419
+18.5 Re-creating PostDetail with
+DateDetailView 426
+18.6 Switching to GCBVs with PostGetMixin in
+Post Views 429
+18.7 Making PostGetMixin Generic 432
+18.8 Fixing NewsLink URL Patterns and Form
+Behavior 438
+18.9 Putting It All Together 449
+
+19 Basic Authentication 451
+
+19.1 Introduction 451
+19.2 Configuring Logging 452
+19.3 Sessions and Cookies 456
+19.4 auth App Anatomy: The Basics 457
+19.5 Adding Login and Logout Features 458
+19.6 Putting It All Together 472
+
+20 Integrating Permissions 473
+
+20.1 Introduction 473
+20.2 Understanding contenttypes and Generic
+Relations 473
+20.3 auth App Anatomy: Permission and
+Group Models 476
+20.4 Protecting Views with Permissions 483
+20.5 Conditionally Displaying Template Links 496
+20.6 Displaying Future Posts in the Template 497
+20.7 Putting It All Together 500
+
+21 Extending Authentication 501
+
+21.1 Introduction 501
+21.2 auth App Anatomy: Password Views 501
+21.3 Changing Passwords 503
+21.4 Resetting Passwords 506
+21.5 Disabling Accounts 513
+21.6 Creating Accounts 517
+21.7 URL Cleanup 544
+21.8 Anatomy of the App: Full Dissection 545
+21.9 Putting It All Together 547
+
+22 Overriding Django’s Authentication with a
+Custom User 549
+
+22.1 Introduction 549
+22.2 Creating a User Profile 550
+22.3 Custom User 558
+22.4 Data Migrations 568
+22.5 Adding an Author to Blog Posts 572
+22.6 Putting It All Together 576
+
+23 The Admin Library 577
+
+23.1 Introduction 577
+23.2 A First Look 577
+23.3 Modifying the Admin Controls for Blog Posts 581
+23.4 Configuring the Admin for the User Model 593
+23.5 Creating Admin Actions 616
+23.6 Putting It All Together 618
+
+III Advanced Core Features 619
+------------------------------
+
+24 Creating Custom Managers and Querysets 621
+
+24.1 Introduction to Part III 621
+24.2 Introduction to Chapter 24 621
+24.3 Custom Managers and Querysets 622
+24.4 Fixtures 624
+24.5 Management Commands 627
+24.6 Putting It All Together 648
+
+25 Handling Behavior with Signals 649
+
+25.1 Introduction 649
+25.2 Apps and AppConfig 650
+25.3 Signals 652
+25.4 Putting It All Together 660
+
+26 Optimizing Our Site for Speed 661
+
+26.1 Introduction 661
+26.2 Profiling 662
+26.3 Limiting Database Queries 663
+26.4 Changing Database Behavior Internally 679
+26.5 Changing Performance Globally 681
+26.6 Putting It All Together 685
+
+27 Building Custom Template Tags 687
+
+27.1 Introduction 687
+27.2 Custom Template Filters 688
+27.3 Custom Template Tags 690
+27.4 Putting It All Together 706
+
+28 Adding RSS and Atom Feeds and a Sitemap 707
+28.1 Introduction 707
+28.2 RSS and Atom Feeds 707
+28.3 Sitemaps 715
+28.4 Putting It All Together 724
+
+29 Deploy! 725
+
+29.1 Introduction: Understanding Modern
+Deployments 725
+29.2 Preparing for Deployment 726
+29.3 Deploying to Heroku 738
+29.4 Adding Backing Services 741
+29.5 Putting It All Together 748
+
+30 Starting a New Project Correctly 749
+
+30.1 Introduction 749
+30.2 Preparing a Project 749
+30.3 Building the Project 752
+30.4 The Road Ahead 754
