@@ -79,3 +79,52 @@ https://github.com/gurnitha/2022-django-suorganizer
         new file:   blog/urls.py
         modified:   blog/views.py
         modified:   suorganizer/urls.py
+
+
+#### 3 Programming Django Models and Creating a SQLite Database
+
+        Specifying and Organizing Data in Django Using Models
+
+        - Tag
+            - tag name
+            - slug
+
+        - Startup
+            - name of company
+            - slug
+            - description or purpose
+            - date founded
+            - contact email
+            - website
+            - tags: a startup can have many tags
+
+        - News Link
+            - title or headline
+            - publication date
+            - link to article
+            - startaup (foreign key to Startup)
+
+        - Blog Post
+            - post title
+            - slug
+            - post text or description
+            - publication date (not seen in admin, 
+              but automatically added using auto_now_add=True)
+            - tags: a post can have many tags
+            - startups: a post can have many startups
+
+        - One-to-Many Relationship
+            - news articles and startup
+
+        - Many-to-Many Relationships
+            - startup and tag
+            - blog post and tag
+            - blog posts and startup
+
+        modified:   README.md
+        modified:   blog/admin.py
+        new file:   blog/migrations/0001_initial.py
+        modified:   blog/models.py
+        modified:   organizer/admin.py
+        new file:   organizer/migrations/0001_initial.py
+        modified:   organizer/models.py
