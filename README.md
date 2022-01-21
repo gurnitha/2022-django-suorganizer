@@ -218,3 +218,13 @@ https://github.com/gurnitha/2022-django-suorganizer
            visit: http://127.0.0.1:8000/
         2. To view a startup
            visit: http://127.0.0.1:8000/2022/01/great-responsive-template/
+
+
+### 6 Integrating Models, Templates, Views, and URL Configurations to Create Links between Webpages
+
+
+#### 6.1 Using the url Template Tag to Build a Navigation Menu
+
+        modified:   README.md
+        modified:   blog/templates/blog/post_list.html
+        modified:   templates/base.html
