@@ -240,3 +240,11 @@ https://github.com/gurnitha/2022-django-suorganizer
 
         modified:   README.md
         modified:   organizer/templates/organizer/startup_list.html
+
+
+#### 6.4 Post Detail: Using url to Create Detail Page Links
+
+        modified:   README.md
+        modified:   blog/templates/blog/post_list.html
+        modified:   blog/urls.py
+        modified:   blog/views.py

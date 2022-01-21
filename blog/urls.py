@@ -11,5 +11,5 @@ app_name = 'blog'
 urlpatterns = [
     # url(r'^$', greeting),
     path('', PostListView, name='postlist'),
-    path('<int:year>/<int:month>/<str:slug>/', PostDetailView, name='postdetail'),
+    path('<int:year>/<int:month>/<int:day>/<str:slug>/', PostDetailView, name='postdetail'),
 ]

@@ -9,12 +9,13 @@
         <article>
           <header>
             <h2>
-              <a href="">
+              <a href="{% url 'blog:postdetail' post.pub_date.year post.pub_date.month post.pub_date.day post.slug %}">
+
                 {{ post.title|title }}</a>
             </h2>
             <p>
               Written on:
-              <time datetime="{{ post.pub_date|date:"Y-m-d" }}">
+              <time datetime="{{ post.pub_date|date:'Y-m-d' }}">
                 {{ post.pub_date|date:"l, F j, Y" }}
               </time>
             </p>

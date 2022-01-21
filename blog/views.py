@@ -17,11 +17,12 @@ def PostListView(request):
     return render(request, 'blog/post_list.html', context)
     
 
-def PostDetailView(request, year, month, slug):
+def PostDetailView(request, year, month, day, slug):
     post = get_object_or_404(
             Post,
             pub_date__year=year,
             pub_date__month=month,
+            pub_date__day=day,
             slug=slug)
     context = {
         'post':post
