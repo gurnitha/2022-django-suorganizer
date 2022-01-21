@@ -128,3 +128,54 @@ https://github.com/gurnitha/2022-django-suorganizer
         modified:   organizer/admin.py
         new file:   organizer/migrations/0001_initial.py
         modified:   organizer/models.py
+
+
+#### 4. Rapidly Producing Flexible HTML with Django Templates
+
+        modified:   README.md
+        new file:   blog/templates/blog/base_blog.html
+        new file:   blog/templates/blog/post_detail.html
+        new file:   blog/templates/blog/post_list.html
+        modified:   blog/urls.py
+        new file:   organizer/templates/organizer/base_organizer.html
+        new file:   organizer/templates/organizer/startup_detail.html
+        new file:   organizer/templates/organizer/startup_list.html
+        new file:   organizer/templates/organizer/tag_detail.html
+        new file:   organizer/templates/organizer/tag_list.html
+        new file:   organizer/urls.py
+        modified:   organizer/views.py
+        modified:   suorganizer/settings.py
+        modified:   suorganizer/urls.py
+        new file:   templates/base.html
+
+
+        NOTE:
+
+        From the db:
+        
+        1. At this stage, it is possible to view
+           http://127.0.0.1:8000/
+           to view 
+
+            Startup Organizer
+            Startup List
+            Startup 1
+            Startup 2
+            © 2015 Andrew Pinkham
+
+            Created for Django Unleashe
+
+        2. To view http://127.0.0.1:8000/tags/
+
+            Startup Organizer
+            Tag List
+            Cowboys
+            Django
+            Mobile
+            Ninjas
+            Pirates
+            Web
+            © 2015 Andrew Pinkham
+
+            Created for Django Unleashed
+

@@ -45,11 +45,11 @@ Database with manage.py 49
 and QuerySets 56
 3.7 String Case Ordering 68
 3.8 Putting It All Together 71
+
 4 Rapidly Producing Flexible HTML with Django
 Templates 73
 
 4.1 Introduction 73
-
 4.2 Revisiting Hello World: The Advantages of
 Templates 74
 4.3 Understanding Django Templates and
@@ -64,11 +64,11 @@ Consistency 102
 4.8 Using Templates in Python with the Template,
 Context, and loader Classes 112
 4.9 Putting It All Together 118
+
 5 Creating Webpages with Controllers
 in Django: Views and URL Configurations 121
 
 5.1 Introduction 121
-
 5.2 The Purpose of Views and URL
 Configurations 122
 5.3 Step-by-Step Examination of Django’s Use of
@@ -85,12 +85,12 @@ to the Rest of the Site 148
 5.9 Class-Based Views 155
 5.10 Redirecting the Homepage 163
 5.11 Putting It All Together 166
+
 6 Integrating Models, Templates, Views, and URL
 Configurations to Create Links between
 Webpages 169
 
 6.1 Introduction 169
-
 6.2 Generating URLs in Python and Django
 Templates 170
 6.3 Using the url Template Tag to Build a Navigation
@@ -122,10 +122,10 @@ Tag Objects 226
 NewsLinkForm, and PostForm 227
 8.6 Reconsidering Template Inheritance 229
 8.7 Putting It All Together 231
+
 9 Controlling Forms in Views 233
 
 9.1 Introduction 233
-
 9.2 Webpages for Creating Objects 233
 9.3 Webpages for Updating Objects 256
 9.4 Webpages for Deleting Objects 268
@@ -180,10 +180,10 @@ II Djangos Contributed Libraries 321
 14.4 Paginating the Startup List Webpage 337
 14.5 Pagination of Tag List Webpage Using the
 URL Path 345
-
 14.6 Putting It All Together 351
 
 15 Creating Webpages with Django Flatpages 353
+
 15.1 Introduction 353
 15.2 Enabling Flatpages 353
 15.3 Anatomy of the App 355
@@ -192,10 +192,10 @@ URL Path 345
 15.6 Security Implications of FlatPages 363
 15.7 Migrations for Sites and Flatpages 365
 15.8 Putting It All Together 371
+
 16 Serving Static Content with Django 373
 
 16.1 Introduction 373
-
 16.2 Adding Static Content for Apps 374
 16.3 Adding Static Content for the Project 376
 16.4 Integrating Real CSS Content 377
@@ -211,10 +211,10 @@ URL Path 345
 17.6 Forgoing GCBVs 400
 17.7 Adding Behavior with GCBV 401
 17.8 Putting It All Together 416
+
 18 Advanced Generic Class-Based View Usage 417
 
 18.1 Introduction 417
-
 18.2 Rapid Review of GCBV 418
 18.3 Globally Setting Template Suffix for Update
 Views 419
