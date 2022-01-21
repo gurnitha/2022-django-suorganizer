@@ -25,7 +25,7 @@ def StartupDetailView(request, slug):
     context = {
         'startup': startup
     } 
-    return render(request, 'organizer/startup_list.html', context)
+    return render(request, 'organizer/startup_detail.html', context)
 
 
 def TagListView(request):

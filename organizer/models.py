@@ -2,6 +2,7 @@
 
 # Django modules
 from django.db import models
+from django.urls import reverse
 
 # Locals
 
@@ -17,6 +18,11 @@ class Tag(models.Model):
 
     def __str__(self):
         return self.name
+
+    def get_tag_absolute_url(self):
+        return reverse('organizer:tagdetail', 
+                        kwargs={'slug':self.slug})
+
 
 
 class Startup(models.Model):
@@ -35,6 +41,9 @@ class Startup(models.Model):
     def __str__(self):
         return self.name
 
+    def get_startup_absolute_url(self):
+        return reverse('organizer:startupdetail', 
+                        kwargs={'slug':self.slug})
 
 class NewsLink(models.Model):
     title 		= models.CharField(max_length=63)

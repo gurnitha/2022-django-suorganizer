@@ -2,6 +2,7 @@
 
 # Django modules
 from django.db import models
+from django.urls import reverse
 
 # Locals
 from organizer.models import Startup, Tag
@@ -25,4 +26,13 @@ class Post(models.Model):
         return "{} on {}".format(
             self.title,
             self.pub_date.strftime('%Y-%m-%d'))
+
+    def get_post_absolute_url(self):
+        return reverse('blog:postdetail',
+                        args=[
+                            self.pub_date.year,
+                            self.pub_date.month,
+                            self.pub_date.day,
+                            self.slug
+                        ])
 

@@ -248,3 +248,16 @@ https://github.com/gurnitha/2022-django-suorganizer
         modified:   blog/templates/blog/post_list.html
         modified:   blog/urls.py
         modified:   blog/views.py
+
+
+#### 6.5 ABSOLUTE URL() - Replacing Detail Page Links with get absolute url() for Tag, Organizer and Blog
+
+        modified:   README.md
+        modified:   blog/models.py
+        modified:   blog/templates/blog/post_list.html
+        modified:   organizer/models.py
+        modified:   organizer/templates/organizer/startup_list.html
+        modified:   organizer/templates/organizer/tag_list.html
+        modified:   organizer/views.py
+
+

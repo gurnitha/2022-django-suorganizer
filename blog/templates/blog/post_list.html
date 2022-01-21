@@ -22,7 +22,7 @@
           </header>
           <p>{{ post.text|truncatewords:20 }}</p>
           <p>
-            <a href="">
+            <a href="{{ post.get_post_absolute_url }}">
               Read more&hellip;</a>
           </p>
         </article>
