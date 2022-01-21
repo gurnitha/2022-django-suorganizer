@@ -228,3 +228,10 @@ https://github.com/gurnitha/2022-django-suorganizer
         modified:   README.md
         modified:   blog/templates/blog/post_list.html
         modified:   templates/base.html
+
+
+#### 6.2 Tag Detail: Using url to Create Detail Page Links
+
+        modified:   README.md
+        modified:   organizer/templates/organizer/tag_list.html
+
