@@ -261,3 +261,9 @@ https://github.com/gurnitha/2022-django-suorganizer
         modified:   organizer/views.py
 
 
+#### 6.6 Creating Links on the Object Detail Pages
+
+        modified:   README.md
+        modified:   blog/templates/blog/post_detail.html
+        modified:   organizer/templates/organizer/startup_detail.html
+        modified:   organizer/templates/organizer/tag_detail.html
