@@ -19,6 +19,15 @@ def StartupListView(request):
     return render(request, 'organizer/startup_list.html', context)
 
 
+def StartupDetailView(request, slug):
+    startup = get_object_or_404(Startup, slug__iexact=slug)
+
+    context = {
+        'startup': startup
+    } 
+    return render(request, 'organizer/startup_list.html', context)
+
+
 def TagListView(request):
     tag_list = Tag.objects.all()
     context = {

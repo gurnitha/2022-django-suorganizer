@@ -202,3 +202,19 @@ https://github.com/gurnitha/2022-django-suorganizer
         modified:   blog/urls.py
         modified:   organizer/urls.py
         modified:   organizer/views.py
+
+
+#### 5.3 Building a Startup Detail Page
+
+        modified:   README.md
+        modified:   blog/urls.py
+        modified:   blog/views.py
+        modified:   organizer/urls.py
+        modified:   organizer/views.py
+
+        NOTE:
+
+        1. To view startups
+           visit: http://127.0.0.1:8000/
+        2. To view a startup
+           visit: http://127.0.0.1:8000/2022/01/great-responsive-template/
