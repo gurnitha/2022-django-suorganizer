@@ -10,5 +10,5 @@ app_name = 'blog'
 
 urlpatterns = [
     # url(r'^$', greeting),
-    # path('', greeting, name='greeting'),
+    path('', greeting, name='greeting'),
 ]

@@ -195,3 +195,10 @@ https://github.com/gurnitha/2022-django-suorganizer
         2. To view tag of django, visit: http://127.0.0.1:8000/tag/django/        
         3. To view error, visit: http://127.0.0.1:8000/tag/djangoxx/
 
+
+#### 5.2 Implementing the Views and URL Configurations to the Rest of the Site
+
+        modified:   README.md
+        modified:   blog/urls.py
+        modified:   organizer/urls.py
+        modified:   organizer/views.py
