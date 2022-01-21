@@ -73,4 +73,9 @@ https://github.com/gurnitha/2022-django-suorganizer
                         __init__.py        
 
 
-        
+#### 2 Hello World: Building a Basic Webpage in Django   
+
+        modified:   README.md
+        new file:   blog/urls.py
+        modified:   blog/views.py
+        modified:   suorganizer/urls.py
